@@ -61,7 +61,7 @@
               </div>
              <div class="form-group">
                  <div class="col-sm-6">
-                     <input type="text" name="reagent_correspondence" class="form-control" placeholder="救急時の対応を入力してください">
+                     <input type="text" name="reagent_correspondence" class="form-control" placeholder="救急対応を入力してください">
                  </div>
              </div>
              <div class="card-title" style="padding-top:10px;">
