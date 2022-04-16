@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
  <!-- resources/views/reagents.blade.php -->
+=======
+ <!-- resources/views/reagents.blade.php aaaa-->
+>>>>>>> origin/master
 =======
  <!-- resources/views/reagents.blade.php aaaa-->
 >>>>>>> origin/master
