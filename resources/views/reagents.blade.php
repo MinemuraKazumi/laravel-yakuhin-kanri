@@ -1,4 +1,4 @@
- <!-- resources/views/reagents.blade.php a-->
+
  @extends('layouts.app')
  @section('content')
  @if($flag == 1) 
