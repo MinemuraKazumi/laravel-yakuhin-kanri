@@ -1,4 +1,8 @@
+<<<<<<< HEAD
  <!-- resources/views/reagents.blade.php -->
+=======
+ <!-- resources/views/reagents.blade.php aaaa-->
+>>>>>>> origin/master
  @extends('layouts.app')
  @section('content')
  @if($flag == 1) 
