@@ -65,9 +65,11 @@
                         <div class="row mb-3">
                             <label for="checkbox" class="col-md-4 col-form-label text-md-end">{{ __('薬品使用者はチェックしてください') }}</label>
 
-                            <div class="col-md-6"　style="padding:10px 10px;">
+                            <div class="col-md-6" style="padding:10px 10px;">
+                                <input name="flag" type="hidden" value="0">
                                 <input id="checkbox" type="checkbox" class="home-check-input" name="flag" value="1">
                                 <!--valueは必須。チェックボックスにチェックを入れるとflagが1となる。 requiredがあると必須になってしまう-->
+                                <!--name=flagが被っていると下に書いているものが優先される。formのルール-->
                             </div>
                         </div>
 

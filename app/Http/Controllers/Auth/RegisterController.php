@@ -63,13 +63,22 @@ class RegisterController extends Controller
      * @return \App\Models\User
      */
     protected function create(array $data)
-    {
+    {//dd($data);
+        // if($data['flag']){
+        //   $flag = 1;
+        // }else {
+        //   $flag = 0;
+        // }
+        
         return User::create([
             'name' => $data['name'],
             'email' => $data['email'],
             'password' => Hash::make($data['password']),
             'flag' => $data['flag'],
             // 追加した4/2
+            // 'flag' => $flag,
+            
+            
         ]);
     }
 }

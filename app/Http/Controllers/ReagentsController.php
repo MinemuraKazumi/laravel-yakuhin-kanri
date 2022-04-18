@@ -59,7 +59,7 @@ class ReagentsController extends Controller
      */
     public function create()
     {
-        //
+        
     }
 
     /**
