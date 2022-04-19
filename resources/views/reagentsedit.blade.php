@@ -15,7 +15,7 @@
             </div>
             <div class="form-group">
                 <div class="col-sm-6" style="padding:5px 0; padding-left:20px;">
-                    <label for="reagent_number">数量</label>
+                    <label for="reagent_number">薬品数量</label>
                     <input type="text" name="reagent_number" class="form-control" value="{{$reagent->reagent_number}}">
                 </div>
             </div>
@@ -27,7 +27,7 @@
             </div>
             <div class="form-group">
                 <div class="col-sm-6" style="padding:5px 0; padding-left:20px;">
-                    <label for="reagent_number">薬品のバーコード</label>
+                    <label for="reagent_number">バーコード</label>
                     <input type="text" name="reagent_barcode" class="form-control" value="{{$reagent->reagent_barcode}}">
                 </div>
             </div>
@@ -45,18 +45,18 @@
             </div>
             <div class="form-group">
                 <div class="col-sm-6" style="padding:5px 0; padding-left:20px;">
-                    <label for="reagent_number">薬品保管方法</label>
+                    <label for="reagent_number">保管方法</label>
                     <input type="text" name="reagent_storage" class="form-control" value="{{$reagent->reagent_storage}}">
                 </div>
             </div>
             
-            <div class="form-group" style="padding:5px 0; padding-left:20px;">	
-                <div class="col-sm-6">
-                    <label for="reagent_name">SDS</label>	
+            <!--<div class="form-group" style="padding:5px 0; padding-left:20px;">	-->
+            <!--    <div class="col-sm-6">-->
+            <!--        <label for="reagent_name">SDS</label>	-->
                     <!--typeをtextからfileに変えた。-->	
-                    <input type="file" name="reagent_document" class="form-control" value="{{$reagent->reagent_document}}">	
-                </div>
-            </div>
+            <!--        <input type="file" name="reagent_document" class="form-control" value="{{$reagent->reagent_document}}">	-->
+            <!--    </div>-->
+            <!--</div>-->
 
             
             <!--/ reagent_name -->

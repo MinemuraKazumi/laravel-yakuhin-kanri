@@ -73,6 +73,13 @@ class ReagentsController extends Controller
         //バリデーション 入力チャック
         $validator = Validator::make($request->all(), [
         'reagent_name' => 'required|max:255',
+        'reagent_number' => 'required',
+        'reagent_capcity' => 'required',
+        'reagent_barcode' => 'required',
+        'reagent_epuipment' => 'required',
+        'reagent_correspondence' => 'required',
+        'reagent_storage' => 'required',
+        'reagent_document' => 'required',
         ]);
         
         //バリデーション:エラー 
@@ -148,6 +155,14 @@ class ReagentsController extends Controller
         //バリデーション
     $validator = Validator::make($request->all(), [
         'reagent_name' => 'required|max:255',
+        'reagent_number' => 'required',
+        'reagent_capcity' => 'required',
+        'reagent_barcode' => 'required',
+        'reagent_epuipment' => 'required',
+        'reagent_correspondence' => 'required',
+        'reagent_storage' => 'required',
+        // 'reagent_document' => 'required',
+
     ]);
     //バリデーション:エラー 
     if ($validator->fails()) {

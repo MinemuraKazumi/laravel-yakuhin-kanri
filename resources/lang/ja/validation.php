@@ -152,7 +152,7 @@ return [
         'reagent_epuipment' =>'薬品のバーコード',
         'reagent_correspondence' =>'保護具',
         'reagent_storage' =>'薬品保管方法',
-        'reagent_document' =>'',
+        'reagent_document' =>'SDS',
         
         ],
 
