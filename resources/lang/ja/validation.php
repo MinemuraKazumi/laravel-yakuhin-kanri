@@ -148,10 +148,11 @@ return [
     'attributes' => [
         'reagent_name' =>'薬品名',
         'reagent_number' =>'薬品数量',
-        'reagent_barcode' =>'薬品容量',
-        'reagent_epuipment' =>'薬品のバーコード',
-        'reagent_correspondence' =>'保護具',
-        'reagent_storage' =>'薬品保管方法',
+        'reagent_capcity' =>'薬品容量',
+        'reagent_barcode' =>'バーコード',
+        'reagent_epuipment' =>'保護具',
+        'reagent_correspondence' =>'緊急対応',
+        'reagent_storage' =>'保管方法',
         'reagent_document' =>'SDS',
         
         ],
