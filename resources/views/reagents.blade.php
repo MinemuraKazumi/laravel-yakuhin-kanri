@@ -25,7 +25,7 @@
              </div>
 
               <div class="card-title" style="padding-top:10px;">
-                  薬品数量
+                  薬品数量(本)
               </div>
              <div class="form-group">
                  <div class="col-sm-6">
@@ -33,7 +33,7 @@
                  </div>
              </div>
              <div class="card-title" style="padding-top:10px;">
-                  薬品容量
+                  薬品容量(g)
               </div>
              <div class="form-group">
                  <div class="col-sm-6">
@@ -157,8 +157,8 @@
                                  </td>
                                  
                                  <!--ここはログインしないで開くとエラー発生。web.phpのindexに->middlewareを追加してエラー回避。ここだけ valign="middle"を入れると中央揃えにならない-->
-                                 <td class="table-text">
-                                      <div>　<?php $user = Auth::user();?> {{ $user->name }}</div>
+                                 <td class="table-text" valign="middle">
+                                      <div>{{ $reagent->user->name }}</div>
                                  </td>
                                  <td class="table-text" valign="middle">
                                       <div>{{ $reagent->created_at }}</div>

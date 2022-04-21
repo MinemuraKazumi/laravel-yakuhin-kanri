@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\User;//4/20追記
 use App\Models\Reagent;
 use Validator;
 use Auth;//Authを使うために必要だけど、Authは深海の奥深くあるのでぱっと見どこいるか不明
@@ -98,6 +99,7 @@ class ReagentsController extends Controller
          $reagents->reagent_epuipment  = $request->reagent_epuipment;
          $reagents->reagent_correspondence  = $request->reagent_correspondence;
          $reagents->reagent_storage  = $request->reagent_storage;
+         $reagents->user_id = Auth::id();//4/20追記
          
          //pdfは容量、名前等のデータが複数ありデータベースに直接入れられないため、まず名前等の全体が入った状態で取得する
          $pdf_file =  $request->file('reagent_document');

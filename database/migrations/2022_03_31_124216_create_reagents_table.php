@@ -23,6 +23,7 @@ return new class extends Migration
             $table->string('reagent_correspondence');//文字：緊急対応
             $table->string('reagent_storage');//文字：保護具
             $table->string('reagent_document');//文字：SDS
+            $table->integer('user_id');//4/20ここを追記
             $table->datetime('published');//
             $table->timestamps();
         });
