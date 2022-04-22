@@ -15,13 +15,13 @@
             </div>
             <div class="form-group">
                 <div class="col-sm-6" style="padding:5px 0; padding-left:20px;">
-                    <label for="reagent_number">薬品数量(本)</label>
+                    <label for="reagent_number">未開封薬品数(本)</label>
                     <input type="text" name="reagent_number" class="form-control" value="{{$reagent->reagent_number}}">
                 </div>
             </div>
             <div class="form-group">
                 <div class="col-sm-6" style="padding:5px 0; padding-left:20px;">
-                    <label for="reagent_number">薬品容量(g)</label>
+                    <label for="reagent_number">開封済薬品重量(g)</label>
                     <input type="text" name="reagent_capcity" class="form-control" value="{{$reagent->reagent_capcity}}">
                 </div>
             </div>

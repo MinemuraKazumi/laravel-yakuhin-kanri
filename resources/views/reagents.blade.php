@@ -25,7 +25,7 @@
              </div>
 
               <div class="card-title" style="padding-top:10px;">
-                  薬品数量(本)
+                  未開封薬品数(本)
               </div>
              <div class="form-group">
                  <div class="col-sm-6">
@@ -33,7 +33,7 @@
                  </div>
              </div>
              <div class="card-title" style="padding-top:10px;">
-                  薬品容量(g)
+                  開封済薬品重量(g)
               </div>
              <div class="form-group">
                  <div class="col-sm-6">
@@ -115,12 +115,12 @@
                      </thead>
                      <thead>
                          <th>薬品名</th>
-                         <th>薬品数量(本)</th>
-                         <th>薬品容量(g)</th>
+                         <th>未開封<br>薬品数量(本)</th>
+                         <th>開封済<br>薬品重量(g)</th>
                          <th>バーコード</th>
                          <th>保護具</th>
                          <th>救急対応</th>
-                         <th>薬品保管方法</th>
+                         <th>保管方法</th>
                          <th>SDS</th>
                          <th>登録者</th>
                          <th>登録日時</th>
