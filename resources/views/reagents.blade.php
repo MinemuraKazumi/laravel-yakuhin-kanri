@@ -20,7 +20,7 @@
              </div>
              <div class="form-group">
                  <div class="col-sm-6">
-                     <input type="text" name="reagent_name" class="form-control" placeholder="薬品名 / 未開封容量を入力してください">
+                     <input type="text" name="reagent_name" class="form-control" placeholder="薬品名 / 未開封容量を入力してください。">
                  </div>
              </div>
 
@@ -29,7 +29,7 @@
               </div>
              <div class="form-group">
                  <div class="col-sm-6">
-                     <input type="text" name="reagent_number" class="form-control" placeholder="数量を入力してください">
+                     <input type="text" name="reagent_number" class="form-control" placeholder="数量を入力してください。">
                  </div>
              </div>
              <div class="card-title" style="padding-top:10px;">
@@ -37,7 +37,7 @@
               </div>
              <div class="form-group">
                  <div class="col-sm-6">
-                     <input type="text" name="reagent_capcity" class="form-control" placeholder="重量を整数で入力してください">
+                     <input type="text" name="reagent_capcity" class="form-control" placeholder="重量を整数で入力してください。開封済の薬品が場合は0と記入してください">
                  </div>
              </div>
              <div class="card-title" style="padding-top:10px;">
@@ -45,7 +45,7 @@
               </div>
              <div class="form-group">
                  <div class="col-sm-6">
-                     <input type="text" name="reagent_barcode" class="form-control" placeholder="バーコードの末尾4桁を入力してください">
+                     <input type="text" name="reagent_barcode" class="form-control" placeholder="バーコードの末尾4桁を入力してください。">
                  </div>
              </div>
              <div class="card-title" style="padding-top:10px;">
@@ -53,7 +53,7 @@
               </div>
              <div class="form-group">
                  <div class="col-sm-6">
-                     <input type="text" name="reagent_epuipment" class="form-control" placeholder="使用する保護具を入力してください">
+                     <input type="text" name="reagent_epuipment" class="form-control" placeholder="使用する保護具を入力してください。">
                  </div>
              </div>
              <div class="card-title" style="padding-top:10px;">
@@ -61,7 +61,7 @@
               </div>
              <div class="form-group">
                  <div class="col-sm-6">
-                     <input type="text" name="reagent_correspondence" class="form-control" placeholder="救急対応を入力してください">
+                     <input type="text" name="reagent_correspondence" class="form-control" placeholder="救急対応を入力してください。">
                  </div>
              </div>
              <div class="card-title" style="padding-top:10px;">
@@ -69,7 +69,7 @@
               </div>
              <div class="form-group">
                  <div class="col-sm-6">
-                     <input type="link" name="reagent_storage" class="form-control" placeholder="保管時の注意を入力してください">
+                     <input type="link" name="reagent_storage" class="form-control" placeholder="保管時の注意を入力してください。">
                  </div>
              </div>
              <div class="card-title" style="padding-top:10px;">
