@@ -37,7 +37,7 @@
               </div>
              <div class="form-group">
                  <div class="col-sm-6">
-                     <input type="text" name="reagent_capcity" class="form-control" placeholder="重量を整数で入力してください。開封済の薬品が場合は0と記入してください">
+                     <input type="text" name="reagent_capcity" class="form-control" placeholder="重量を整数で入力してください。開封済の薬品がない場合は0と記入してください">
                  </div>
              </div>
              <div class="card-title" style="padding-top:10px;">
